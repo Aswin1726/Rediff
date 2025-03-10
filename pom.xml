@@ -46,15 +46,29 @@
         <!-- SLF4J for Logging -->
         <dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
+            <artifactId>slf4j-api</artifactId>
             <version>2.0.7</version>
         </dependency>
         <dependency>
-        	<groupId>DataProviderFrameWork</groupId>
-        	<artifactId>DataProviderFrameWork</artifactId>
-        	<version>0.0.1-SNAPSHOT</version>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.7</version>
+        </dependency>
+
+        <!-- DataProviderFrameWork (Ensure you have this JAR available) -->
+        <dependency>
+            <groupId>DataProviderFrameWork</groupId>
+            <artifactId>DataProviderFrameWork</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>custom-repo</id>
+            <url>http://your-repo-url</url>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>
