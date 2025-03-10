@@ -1,41 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="22.821" tests="2" skipped="0" failures="0" errors="0">
-<testcase classname="Rediffmail Account Creation" name="Creating a new Rediffmail account - Example #1.1" time="11.699">
+<testsuite name="Cucumber" time="13.31" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Rediff Sign-in" name="Login with correct username and correct password - Example #1.1" time="6.647">
 <system-out><![CDATA[
-Given the Rediffmail signup page is open....................................passed
-When click the create account button........................................passed
-And "Aswin" username is entered.............................................passed
-And choose a "aswin123" is entered..........................................passed
-And check availability is clicked...........................................passed
-And "Passash22" is entered..................................................passed
-And "Passash22" is retyped..................................................passed
-And "aswin@gmail.com" address is entered....................................passed
-And "9876543210" mobile number is entered...................................passed
-And date of birth is selected from dropdowns................................passed
-And gender is selected......................................................passed
-And country is selected.....................................................passed
-And enter the capcha........................................................passed
-And click the create my account button......................................passed
-Then the account should be created successfully.............................passed
+Given I navigate to the sign-in page........................................passed
+When I click the sig-in button..............................................passed
+And enter "aswin" in the username field.....................................passed
+And enter "aswin1234" in the password field.................................passed
+And clicks the signin button................................................passed
+Then user should be logged successfully.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Rediffmail Account Creation" name="Creating a new Rediffmail account - Example #1.2" time="10.992">
+<testcase classname="Rediff Sign-in" name="Login with correct username and correct password - Example #1.2" time="6.527">
 <system-out><![CDATA[
-Given the Rediffmail signup page is open....................................passed
-When click the create account button........................................passed
-And "Daksanya" username is entered..........................................passed
-And choose a "daks1111" is entered..........................................passed
-And check availability is clicked...........................................passed
-And "daksanyaashwin" is entered.............................................passed
-And "daksanyaashwin" is retyped.............................................passed
-And "dak@gmail.com" address is entered......................................passed
-And "9894269191" mobile number is entered...................................passed
-And date of birth is selected from dropdowns................................passed
-And gender is selected......................................................passed
-And country is selected.....................................................passed
-And enter the capcha........................................................passed
-And click the create my account button......................................passed
-Then the account should be created successfully.............................passed
+Given I navigate to the sign-in page........................................passed
+When I click the sig-in button..............................................passed
+And enter "daksanya" in the username field..................................passed
+And enter "dak1234" in the password field...................................passed
+And clicks the signin button................................................passed
+Then user should be logged successfully.....................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

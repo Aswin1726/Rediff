@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.157" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="Rediff Sign-in" name="Login with correct username and correct password - Example #1.1" time="0.018">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;com.wipro.Stepdef.SigninStepDiff.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "com.wipro.Stepdef.SigninStepDiff.driver" is null
+	at com.wipro.Stepdef.SigninStepDiff.i_navigate_to_the_sign_in_page(SigninStepDiff.java:14)
+	at ✽.I navigate to the sign-in page(file:///E:/workspace/RedDiffBdd/src/test/resources/feature/Signin.feature:3)
+]]>
+</failure>
+<system-out><![CDATA[
+Given I navigate to the sign-in page........................................failed
+When I click the sig-in button..............................................skipped
+And enter "aswin" in the username field.....................................skipped
+And enter "aswin1234" in the password field.................................skipped
+And clicks the signin button................................................skipped
+Then user should be logged successfully.....................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Rediff Sign-in" name="Login with correct username and correct password - Example #1.2" time="0.002">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;com.wipro.Stepdef.SigninStepDiff.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "com.wipro.Stepdef.SigninStepDiff.driver" is null
+	at com.wipro.Stepdef.SigninStepDiff.i_navigate_to_the_sign_in_page(SigninStepDiff.java:14)
+	at ✽.I navigate to the sign-in page(file:///E:/workspace/RedDiffBdd/src/test/resources/feature/Signin.feature:3)
+]]>
+</failure>
+<system-out><![CDATA[
+Given I navigate to the sign-in page........................................failed
+When I click the sig-in button..............................................skipped
+And enter "daksanya" in the username field..................................skipped
+And enter "dak1234" in the password field...................................skipped
+And clicks the signin button................................................skipped
+Then user should be logged successfully.....................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

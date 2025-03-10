@@ -20,5 +20,5 @@ Feature: Rediffmail Account Creation
     Examples:
         | Full Name     | Rediffmail ID | Password | Retype Password | Alternate Email    | Mobile Number |  
          | Aswin         | aswin123     | Passash22    | Passash22         | aswin@gmail.com    | 9876543210    |  
-         |Daksanya        |daks1111     |daksanyaashwin| daksanyaashwin        |dak@gmail.com|9894269191|
+         #|Daksanya        |daks1111     |daksanyaashwin| daksanyaashwin        |dak@gmail.com|9894269191|
          

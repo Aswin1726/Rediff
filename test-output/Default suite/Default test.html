@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Mar 06 15:48:04 IST 2025</td>
+<td>Started on:</td><td>Sat Mar 08 09:37:43 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>23 seconds (23256 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (588 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,15 +76,29 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.wipro.Stepdef.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.wipro.Stepdef.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Creating a new Rediffmail account", "Rediffmail Account Creation"</td>
-<td></td>
-<td>10</td>
-<td>com.wipro.Stepdef.TestRunner@3f4faf53</td></tr>
+<td title='com.wipro.Stepdef.SigninTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.wipro.Stepdef.SigninTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with correct username and correct password", "Rediff Sign-in"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;com.wipro.Stepdef.SigninStepDiff.driver&quot; is null
+	at com.wipro.Stepdef.SigninStepDiff.i_navigate_to_the_sign_in_page(SigninStepDiff.java:14)
+	at ✽.I navigate to the sign-in page(file:///E:/workspace/RedDiffBdd/src/test/resources/feature/Signin.feature:3)
+</pre></div><a href='#' onClick='toggleBox("stack-trace296234255", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace296234255'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;com.wipro.Stepdef.SigninStepDiff.driver&quot; is null
+	at com.wipro.Stepdef.SigninStepDiff.i_navigate_to_the_sign_in_page(SigninStepDiff.java:14)
+	at ✽.I navigate to the sign-in page(file:///E:/workspace/RedDiffBdd/src/test/resources/feature/Signin.feature:3)
+</pre></div></td>
+<td>0</td>
+<td>com.wipro.Stepdef.SigninTestRunner@3f4faf53</td></tr>
 <tr>
-<td title='com.wipro.Stepdef.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.wipro.Stepdef.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Creating a new Rediffmail account", "Rediffmail Account Creation"</td>
-<td></td>
-<td>11</td>
-<td>com.wipro.Stepdef.TestRunner@3f4faf53</td></tr>
+<td title='com.wipro.Stepdef.SigninTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.wipro.Stepdef.SigninTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with correct username and correct password", "Rediff Sign-in"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;com.wipro.Stepdef.SigninStepDiff.driver&quot; is null
+	at com.wipro.Stepdef.SigninStepDiff.i_navigate_to_the_sign_in_page(SigninStepDiff.java:14)
+	at ✽.I navigate to the sign-in page(file:///E:/workspace/RedDiffBdd/src/test/resources/feature/Signin.feature:3)
+</pre></div><a href='#' onClick='toggleBox("stack-trace334099170", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace334099170'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;com.wipro.Stepdef.SigninStepDiff.driver&quot; is null
+	at com.wipro.Stepdef.SigninStepDiff.i_navigate_to_the_sign_in_page(SigninStepDiff.java:14)
+	at ✽.I navigate to the sign-in page(file:///E:/workspace/RedDiffBdd/src/test/resources/feature/Signin.feature:3)
+</pre></div></td>
+<td>0</td>
+<td>com.wipro.Stepdef.SigninTestRunner@3f4faf53</td></tr>
 </table><p>
 </body>
 </html>
